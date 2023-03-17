@@ -1,0 +1,21 @@
+.bg-pink {
+  background-color: #afabcb;
+}
+
+.bg-dark-blue {
+  background-color: #4a5364;
+}
+
+.profile-image {
+  background-image: url("images/avatar.jpg");
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+}
+
+@media (max-width: 578px) {
+  .hide {
+    visibility: hidden;
+    height: 0;
+  }
+}
